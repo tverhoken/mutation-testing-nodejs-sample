@@ -2,3 +2,7 @@ node_modules
 coverage
 reports
 .vscode
+# stryker temp files
+.stryker-tmp
+
+.DS_Store

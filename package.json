@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": ">= 18"
+  },
   "scripts": {
     "lint": "eslint .",
     "test": "jest --coverage",
@@ -15,18 +18,9 @@
     "@babel/core": "^7.4.0",
     "@babel/node": "^7.2.2",
     "@babel/preset-env": "^7.4.2",
-    "babel-jest": "^24.5.0",
-    "eslint": "^5.15.3",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.16.0",
-    "jest": "^24.5.0",
-    "stryker": "^0.35.1",
-    "stryker-api": "^0.24.1",
-    "stryker-html-reporter": "^0.18.1",
-    "stryker-javascript-mutator": "^0.14.1",
-    "stryker-jest-runner": "^1.4.1"
-  },
-  "dependencies": {
-    "node-fetch": "^2.3.0"
+    "@stryker-mutator/core": "^6.4.2",
+    "@stryker-mutator/jest-runner": "^6.4.2",
+    "eslint": "^8.39.0",
+    "jest": "^29.5.0"
   }
 }
